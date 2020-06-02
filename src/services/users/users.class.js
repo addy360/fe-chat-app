@@ -24,7 +24,6 @@ exports.Users = class Users extends Service {
       name,
       avatar
     };
-
     return super.create(userData, params);
   }
 };
